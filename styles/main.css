@@ -1,0 +1,120 @@
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	height: 100%;
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	line-height: 16px;
+	color: #000;
+	background: #f8f8f8;
+	flex-wrap: nowrap;
+}
+
+.container {
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	width: 1314px;
+	margin: 0 auto;
+	font-size: 36px;
+	font-size: 36px;
+}
+
+.container > ul {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0 38px;
+	align-content: center;
+}
+
+.container > ul > li {
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	width: 212px;
+	height: 49px;
+	cursor: pointer;
+}
+	
+i.icon-facebook:hover {
+	color: rgba(125, 2, 100, 0.6);
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+i.icon-icq:hover {
+	color: rgba(99, 180, 50, 0.6);
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+i.icon-github-text:hover {
+	color: rgba(42, 33, 0, 0.6);
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+i.icon-linkedin:hover {
+	color: rgba(13, 133, 100, 0.6);
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+.container-2 {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+}
+
+h1 {
+	text-align: center;
+}
+
+.svg-1,
+.svg-2 {
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	padding: 0px;
+	height: 500px;
+	width: 500px;
+}
+
+figure {
+	margin: 0px;
+	padding: 0px;
+	vertical-align: center;
+}
+
+figure img,
+figure svg {
+  vertical-align: middle;
+  border: 8px solid rgb(210, 124, 48);
+}
+
+figcaption {
+	vertical-align: middle;
+	width: 500px;
+	font-size: 24px;
+	letter-spacing: 0.02em;
+	text-align: center;
+	background-color: rgb(210, 124, 48);
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 36px;
+}
+
+svg path:hover {
+  fill: #8B4513;
+}
+
+svg g path:hover {
+  fill: #d27c30;
+}
